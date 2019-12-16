@@ -43,7 +43,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -135,6 +135,59 @@ header {
   width: 60%;
 }
 
+/* Hobbies
+------------------------------------*/
+.hobbies {
+  background: #2F3061;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  border: 3px solid #FFE66D;
+  transition: .5s ease;
+}
+
+.gallery-item h3 {
+  margin-top: 0;
+}
+
+.gallery-item a {
+  color: #f7f7f7;
+}
+
+.img-container:hover img{
+  opacity: 30%;
+}
+
+.img-container:hover .img-overlay p{
+  opacity: 1;
+}
+
+.img-container{
+  position: relative;
+  width: 50%;
+
+}
+
+.img-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.img-overlay p{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+
+  opacity: 0;
+  transition: .5s ease;
+}
 
 /* Contact Info
 ------------------------------------*/
